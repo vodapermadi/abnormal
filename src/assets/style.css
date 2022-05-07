@@ -4,6 +4,10 @@
     font-family: 'Alata',sans-serif;
 }
 
+.putih {
+    background: white;
+}
+
 .color1 {
     background: #5A87A0;
 }
@@ -28,4 +32,17 @@
 .imgs:hover {
     background: #2c6a8c;
     transition: 1s;
+}
+
+.ps {
+    margin-top: 150px;
+}
+
+.pts {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.gs {
+    border-radius: 50%;
 }

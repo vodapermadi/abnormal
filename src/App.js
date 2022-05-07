@@ -1,7 +1,7 @@
 import Home from "./home/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Voda from "./portofolio/vodapermadi/Voda";
-import Sabrina from "./portofolio/sabrinautami/Sabrina";
+import Voda from "./portofolio/vodapermadi/Voda.js";
+import Sabrina from "./portofolio/sabrinautami/Sabrina.js";
 
 function App() {
   return (
