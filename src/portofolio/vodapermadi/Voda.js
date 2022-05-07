@@ -1,8 +1,11 @@
 import React from 'react'
+import NavbarVoda from './NavbarVoda'
 
 const Voda = () => {
   return (
-    <div>Voda</div>
+    <div>
+      <NavbarVoda/>
+    </div>
   )
 }
 

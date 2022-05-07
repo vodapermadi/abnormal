@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div>
       <NavbarComponent/>
-    <div className="container text-center my-4 text-white">
+    <div className="container text-center my-4 text-white px-5">
       <h1>ABNORMAL</h1>
       <h5 className="mb-2">
         Hello! this is our team and
@@ -19,22 +19,22 @@ const Home = () => {
           <img
             src={voda}
             alt="vodapermadi"
-            style={{ width: "200px" }}
-            className="img rounded mt-2"
+            style={{ width: "215px", height : "315px" }}
+            className="img rounded"
           />
           <p className="">
-            <Link className="my-3 btn text-white imgp" to={`/portofolio/vodapermadi`} >Philipus Voda Permadi</Link>
+            <Link className="my-3 btn text-white imgp fs-5" to={`/portofolio/vodapermadi`} >Philipus Voda Permadi</Link>
           </p>
         </div>
         <div className="col">
           <img
             src={sabrina}
             alt="vodapermadi"
-            style={{ width: "200px" }}
+            style={{ width: "215px", height: "315px" }}
             className="img rounded"
           />
           <p>
-            <Link to={`/portofolio/sabrinautami`} className="my-3 btn text-white imgs">Sabrina Utami</Link>
+            <Link to={`/portofolio/sabrinautami`} className="my-3 btn text-white imgs fs-5">Sabrina Utami</Link>
           </p>
         </div>
       </div>
