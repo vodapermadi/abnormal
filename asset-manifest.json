@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/abnormal/static/css/main.f82adb56.css",
+    "main.js": "/abnormal/static/js/main.c216fcf0.js",
+    "static/media/sabrinautami.jpg": "/abnormal/static/media/sabrinautami.1952a18fbab963c9f625.jpg",
+    "static/media/vodapermadi.jpeg": "/abnormal/static/media/vodapermadi.68440d0a50de380f559b.jpeg",
+    "index.html": "/abnormal/index.html",
+    "main.f82adb56.css.map": "/abnormal/static/css/main.f82adb56.css.map",
+    "main.c216fcf0.js.map": "/abnormal/static/js/main.c216fcf0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f82adb56.css",
+    "static/js/main.c216fcf0.js"
+  ]
+}
