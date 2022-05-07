@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+* {
+    font-family: 'Alata',sans-serif;
+}
+
+.color1 {
+    background: #5A87A0;
+}
+
+.imgp {
+    padding-left: 25px;
+    padding-right: 25px;
+    background: #5A87A0;
+}
+
+.imgp:hover {
+    background: #2c6a8c;
+    transition: 1s;
+}
+
+.imgs {
+    padding-left: 50px;
+    padding-right: 50px;
+    background: #5A87A0;
+}
+
+.imgs:hover {
+    background: #2c6a8c;
+    transition: 1s;
+}
