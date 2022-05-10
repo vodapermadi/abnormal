@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/abnormal/static/css/main.2dd64f7b.css",
-    "main.js": "/abnormal/static/js/main.c73dbc5d.js",
+    "main.css": "/abnormal/static/css/main.5d6a147a.css",
+    "main.js": "/abnormal/static/js/main.d7edc76a.js",
     "static/media/php.png": "/abnormal/static/media/php.aa680f57bf75b5d5acdc.png",
     "static/media/laravel.png": "/abnormal/static/media/laravel.845b69e530cc37b6e466.png",
     "static/media/sabrinautami.jpg": "/abnormal/static/media/sabrinautami.1952a18fbab963c9f625.jpg",
@@ -12,11 +12,11 @@
     "static/media/react.png": "/abnormal/static/media/react.283bf42c605cfc49cf49.png",
     "static/media/js.png": "/abnormal/static/media/js.7b7d39612cf606d09047.png",
     "index.html": "/abnormal/index.html",
-    "main.2dd64f7b.css.map": "/abnormal/static/css/main.2dd64f7b.css.map",
-    "main.c73dbc5d.js.map": "/abnormal/static/js/main.c73dbc5d.js.map"
+    "main.5d6a147a.css.map": "/abnormal/static/css/main.5d6a147a.css.map",
+    "main.d7edc76a.js.map": "/abnormal/static/js/main.d7edc76a.js.map"
   },
   "entrypoints": [
-    "static/css/main.2dd64f7b.css",
-    "static/js/main.c73dbc5d.js"
+    "static/css/main.5d6a147a.css",
+    "static/js/main.d7edc76a.js"
   ]
 }
