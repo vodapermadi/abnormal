@@ -59,12 +59,11 @@ const Sabrina = () => {
       </div>
       <div className="row justify-content-center">
         <div className="col-md-8 my-3 px-5 text-center">
-            <p>
-            <h1>Tools</h1>
-
-            </p>
           <p>
-            <img src={figma} style={{ borderRadius : "50%", width : "100px" }} />
+            <h1>Tools</h1>
+          </p>
+          <p>
+            <img src={figma} style={{ borderRadius: "50%", width: "100px" }} />
             <p>Figma</p>
           </p>
         </div>
@@ -101,9 +100,19 @@ const Sabrina = () => {
           </div>
           <div className="col-md-6 py-5 mt-4">
             <p>
-              <img src={instagram} style={{ width: "30px" }} className="" />
-              <img src={telegram} style={{ width: "30px" }} className="mx-2" />
-              <img src={whatsapp} style={{ width: "30px" }} />
+              <a href="https://www.instagram.com/sabrinaaau_/">
+                <img src={instagram} style={{ width: "30px" }}/>
+              </a>
+              <a href="/">
+                <img
+                  src={telegram}
+                  style={{ width: "30px" }}
+                  className="mx-2"
+                />
+              </a>
+              <a href="https://wa.me/621545454765">
+                <img src={whatsapp} style={{ width: "30px" }} />
+              </a>
             </p>
           </div>
         </div>

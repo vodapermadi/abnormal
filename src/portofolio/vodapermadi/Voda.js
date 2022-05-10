@@ -2,7 +2,7 @@ import React from "react";
 import NavbarVoda from "./NavbarVoda";
 import voda from "../../assets/vodapermadi2.jpg";
 import instagram from "../../assets/Brands/Vector-1.png";
-import telegram from "../../assets/Brands/Vector.png";
+import github from "../../assets/Brands/Vector-3.png";
 import whatsapp from "../../assets/Brands/Vector-2.png";
 import js from "../../assets/Brands/js.png";
 import react from "../../assets/Brands/react.png";
@@ -10,12 +10,11 @@ import laravel from "../../assets/Brands/laravel.png";
 import php from "../../assets/Brands/php.png";
 import python from "../../assets/Brands/python.png";
 import bootstrap from "../../assets/Brands/bootstrap.png";
-import AOS from "aos"
+import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Voda = () => {
-
-  AOS.init()
+  AOS.init();
 
   return (
     <div>
@@ -49,7 +48,7 @@ const Voda = () => {
           </div>
           <div className="col-md-4 mt-2">
             <p>
-              <h5 data-aos={"fade-right"} >
+              <h5 data-aos={"fade-right"}>
                 So, The front end is what users see on the appearance of a
                 website.The front end is often referred to as the "client-side"
               </h5>
@@ -57,7 +56,7 @@ const Voda = () => {
           </div>
           <div className="col-md-5 mt-2">
             <p>
-              <h5 data-aos={"fade-left"} >
+              <h5 data-aos={"fade-left"}>
                 Front End Developers <br /> play a role in developing the
                 appearance of the site using programming languages ​​such as CSS
                 , HTML, and Javascript.
@@ -138,24 +137,42 @@ const Voda = () => {
               <h1 className="text-center mt-4">Leave the message</h1>
             </p>
             <p>
-              <input type="text" placeholder="Name" className="form-control mb-3" />
-              <input type="text" placeholder="email" className="form-control mb-3" />
-              <input type="text" placeholder="message" className="form-control mb-3 pb-5" />
+              <input
+                type="text"
+                placeholder="Name"
+                className="form-control mb-3"
+              />
+              <input
+                type="text"
+                placeholder="email"
+                className="form-control mb-3"
+              />
+              <input
+                type="text"
+                placeholder="message"
+                className="form-control mb-3 pb-5"
+              />
               <button className="btn btn-primary">send</button>
             </p>
           </div>
         </div>
       </div>
       <div className="container">
-        <div className="row mt-5">
+        <div className="row mt-5 justify-content-center">
           <div className="col-md-12">
             <p>Contact me if you have any questions</p>
           </div>
           <div className="col-md-6 mt-4 py-5">
             <p>
-              <img src={instagram} style={{ width: "30px" }} className="" />
-              <img src={telegram} style={{ width: "30px" }} className="mx-2" />
-              <img src={whatsapp} style={{ width: "30px" }} />
+              <a href="https://www.instagram.com/cuma_voda/">
+                <img src={instagram} style={{ width: "30px" }} className="" />
+              </a>
+              <a href="https://github.com/vodapermadi">
+                <img src={github} style={{ width: "30px" }} className="mx-2" />
+              </a>
+              <a href="https://wa.me/6282140633352">
+                <img src={whatsapp} style={{ width: "30px" }} />
+              </a>
             </p>
           </div>
         </div>
