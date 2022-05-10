@@ -1,6 +1,6 @@
 import React from "react";
 import NavbarVoda from "./NavbarVoda";
-import voda from "../../assets/sabrinautami2.jpg";
+import voda from "../../assets/vodapermadi2.jpg";
 import instagram from "../../assets/Brands/Vector-1.png";
 import telegram from "../../assets/Brands/Vector.png";
 import whatsapp from "../../assets/Brands/Vector-2.png";
