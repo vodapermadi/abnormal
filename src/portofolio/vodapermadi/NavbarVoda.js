@@ -6,7 +6,7 @@ import back from "../../assets/Arrows/Vector.png"
 const NavbarVoda = () => {
   return (
     <div>
-      <Navbar className="color1" variant="dark">
+      <Navbar className="color2 shadow" variant="dark">
         <Container>
           <Link to={`/abnormal`} className="navbar-brand" >
             <img src={back} alt="back" />

@@ -12,6 +12,10 @@
     background: #5A87A0;
 }
 
+.color2 {
+    background: rgba(2, 31, 47, 0.75);
+}
+
 .imgp {
     padding-left: 10px;
     padding-right: 10px;

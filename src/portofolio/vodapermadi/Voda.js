@@ -8,8 +8,15 @@ import js from "../../assets/Brands/js.png";
 import react from "../../assets/Brands/react.png";
 import laravel from "../../assets/Brands/laravel.png";
 import php from "../../assets/Brands/php.png";
+import python from "../../assets/Brands/python.png";
+import bootstrap from "../../assets/Brands/bootstrap.png";
+import AOS from "aos"
+import "aos/dist/aos.css";
 
 const Voda = () => {
+
+  AOS.init()
+
   return (
     <div>
       <NavbarVoda />
@@ -32,7 +39,9 @@ const Voda = () => {
         </div>
       </div>
       <div>
-        <div className="row justify-content-center items-center text-center color1 pts text-white">
+        {/* What i Do */}
+
+        <div className="row justify-content-center items-center text-center color2 pts text-white px-3">
           <div className="col-md-12 text-center mb-3">
             <p>
               <h1>What I do</h1>
@@ -40,7 +49,7 @@ const Voda = () => {
           </div>
           <div className="col-md-4 mt-2">
             <p>
-              <h5>
+              <h5 data-aos={"fade-right"} >
                 So, The front end is what users see on the appearance of a
                 website.The front end is often referred to as the "client-side"
               </h5>
@@ -48,7 +57,7 @@ const Voda = () => {
           </div>
           <div className="col-md-5 mt-2">
             <p>
-              <h5>
+              <h5 data-aos={"fade-left"} >
                 Front End Developers <br /> play a role in developing the
                 appearance of the site using programming languages ​​such as CSS
                 , HTML, and Javascript.
@@ -56,47 +65,84 @@ const Voda = () => {
             </p>
           </div>
         </div>
-        <div className="row justify-content-center items-center text-center pts text-white">
+
+        {/* skill */}
+
+        <div className="row justify-content-center items-center text-center pts text-white ">
           <div className="col-md-12 text-center mb-3">
             <p>
               <h1>Skills</h1>
             </p>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 mb-3">
             <img
               src={js}
               alt="js"
               style={{ width: "100px" }}
-              className="mx-2 mb-2"
+              className="mx-2"
             />
             <h5>Javascript</h5>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 mb-3">
             <img
               src={react}
               alt="js"
               style={{ width: "100px" }}
-              className="mx-2 mb-2"
+              className="mx-2"
             />
             <h5>React Js</h5>
           </div>
-          <div className="col-md-3">
-            <img
-              src={laravel}
-              alt="js"
-              style={{ width: "220px" }}
-              className="mx-2 mb-2"
-            />
-            <h5>Laravel</h5>
-          </div>
-          <div className="col-md-3">
+          <div className="col-md-3 mb-3">
             <img
               src={php}
               alt="js"
               style={{ width: "100px" }}
-              className="mx-2 mb-2"
+              className="mx-2"
             />
             <h5>php</h5>
+          </div>
+          <div className="col-md-3 mb-3">
+            <img
+              src={laravel}
+              alt="js"
+              style={{ width: "220px" }}
+              className="mx-2"
+            />
+            <h5>Laravel</h5>
+          </div>
+          <div className="col-md-3 mb-3">
+            <img
+              src={python}
+              alt="js"
+              style={{ width: "100px" }}
+              className="mx-2"
+            />
+            <h5>python</h5>
+          </div>
+          <div className="col-md-3 mb-3">
+            <img
+              src={bootstrap}
+              alt="js"
+              style={{ width: "100px", borderRadius: "50%" }}
+              className="mx-2"
+            />
+            <h5>bootstrap</h5>
+          </div>
+        </div>
+
+        {/* contact */}
+
+        <div className="row color2 justify-content-center text-white">
+          <div className="col-md-8 my-3 px-5">
+            <p>
+              <h1 className="text-center mt-4">Leave the message</h1>
+            </p>
+            <p>
+              <input type="text" placeholder="Name" className="form-control mb-3" />
+              <input type="text" placeholder="email" className="form-control mb-3" />
+              <input type="text" placeholder="message" className="form-control mb-3 pb-5" />
+              <button className="btn btn-primary">send</button>
+            </p>
           </div>
         </div>
       </div>
@@ -105,7 +151,7 @@ const Voda = () => {
           <div className="col-md-12">
             <p>Contact me if you have any questions</p>
           </div>
-          <div className="col">
+          <div className="col-md-6 mt-4 py-5">
             <p>
               <img src={instagram} style={{ width: "30px" }} className="" />
               <img src={telegram} style={{ width: "30px" }} className="mx-2" />
