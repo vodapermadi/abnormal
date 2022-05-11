@@ -15,7 +15,7 @@ const Home = () => {
         <br /> its members, please choose one to see our full profile.
       </h5>
       <div className="row py-4">
-        <div className="col home3 py-5 mx-2">
+        <div className="col home3 py-5 mx-2 my-3">
           <img
             src={voda}
             alt="vodapermadi"
@@ -26,7 +26,7 @@ const Home = () => {
             <Link className="mt-2 btn text-white imgp fs-5 shadow" to={`/portofolio/vodapermadi`} >Philipus Voda Permadi</Link>
           </p>
         </div>
-        <div className="col home3 py-5 mx-2">
+        <div className="col home3 py-5 mx-2 my-3">
           <img
             src={sabrina}
             alt="sabrina"
