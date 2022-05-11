@@ -8,29 +8,29 @@ const Home = () => {
   return (
     <div>
       <NavbarComponent/>
-    <div className="container text-center my-4 text-white px-5">
+    <div className="container text-center my-4 px-5 home2 rounded text-white">
       <h1>ABNORMAL</h1>
       <h5 className="mb-2">
         Hello! this is our team and
         <br /> its members, please choose one to see our full profile.
       </h5>
-      <div className="row my-5">
-        <div className="col">
+      <div className="row py-4">
+        <div className="col home3 py-5 mx-2">
           <img
             src={voda}
             alt="vodapermadi"
-            style={{ width: "215px", height : "315px" }}
+            style={{ width: "215px", height : "315px", border : "10px solid #E8F9FD"}}
             className="img rounded"
           />
-          <p className="">
-            <Link className="my-3 btn text-white imgp fs-5" to={`/portofolio/vodapermadi`} >Philipus Voda Permadi</Link>
+          <p>
+            <Link className="mt-2 btn text-white imgp fs-5 shadow" to={`/portofolio/vodapermadi`} >Philipus Voda Permadi</Link>
           </p>
         </div>
-        <div className="col">
+        <div className="col home3 py-5 mx-2">
           <img
             src={sabrina}
-            alt="vodapermadi"
-            style={{ width: "215px", height: "315px" }}
+            alt="sabrina"
+            style={{ width: "215px", height: "315px", border : "10px solid #E8F9FD" }}
             className="img rounded"
           />
           <p>

@@ -17,13 +17,13 @@ const Voda = () => {
   AOS.init();
 
   return (
-    <div>
+    <div className="putih">
       <NavbarVoda />
       <div className="container py-5 mt-2">
         <div className="row items-center justify-content-center">
           <div className="col-md-4 text-center">
             <p>
-              <img src={voda} style={{ width: "250px" }} className="gs" />
+              <img src={voda} style={{ width: "250px" }} className="gs shadow" />
             </p>
           </div>
           <div className="col-md-6 my-5">
@@ -40,7 +40,7 @@ const Voda = () => {
       <div>
         {/* What i Do */}
 
-        <div className="row justify-content-center items-center text-center color2 pts text-white px-3">
+        <div className="row justify-content-center items-center text-center color2 pts text-white px-3 shadow">
           <div className="col-md-12 text-center mb-3">
             <p>
               <h1>What I do</h1>
@@ -67,10 +67,10 @@ const Voda = () => {
 
         {/* skill */}
 
-        <div className="row justify-content-center items-center text-center pts text-white ">
+        <div className="row justify-content-center items-center text-center pts">
           <div className="col-md-12 text-center mb-3">
             <p>
-              <h1>Skills</h1>
+              <h1 data-aos={"fade-down"}>Skills</h1>
             </p>
           </div>
           <div className="col-md-3 mb-3">
@@ -78,18 +78,20 @@ const Voda = () => {
               src={js}
               alt="js"
               style={{ width: "100px" }}
-              className="mx-2"
+              className="mx-2 shadow"
+              data-aos={"zoom-out"}
             />
-            <h5>Javascript</h5>
+            <h5 data-aos={"fade-up"}>Javascript</h5>
           </div>
           <div className="col-md-3 mb-3">
             <img
               src={react}
               alt="js"
-              style={{ width: "100px" }}
-              className="mx-2"
+              style={{ width: "100px", borderRadius : "50%" }}
+              className="mx-2 shadow"
+              data-aos={"zoom-out"}
             />
-            <h5>React Js</h5>
+            <h5 data-aos={"fade-up"}>React Js</h5>
           </div>
           <div className="col-md-3 mb-3">
             <img
@@ -97,17 +99,19 @@ const Voda = () => {
               alt="js"
               style={{ width: "100px" }}
               className="mx-2"
+              data-aos={"zoom-out"}
             />
-            <h5>php</h5>
+            <h5 data-aos={"fade-up"}>php</h5>
           </div>
           <div className="col-md-3 mb-3">
             <img
               src={laravel}
               alt="js"
               style={{ width: "220px" }}
-              className="mx-2"
+              className="mx-2 shadow"
+              data-aos={"zoom-out"}
             />
-            <h5>Laravel</h5>
+            <h5 data-aos={"fade-up"}>Laravel</h5>
           </div>
           <div className="col-md-3 mb-3">
             <img
@@ -115,17 +119,19 @@ const Voda = () => {
               alt="js"
               style={{ width: "100px" }}
               className="mx-2"
+              data-aos={"zoom-out"}
             />
-            <h5>python</h5>
+            <h5 data-aos={"fade-up"}>python</h5>
           </div>
           <div className="col-md-3 mb-3">
             <img
               src={bootstrap}
               alt="js"
               style={{ width: "100px", borderRadius: "50%" }}
-              className="mx-2"
+              className="mx-2 shadow"
+              data-aos={"zoom-out"}
             />
-            <h5>bootstrap</h5>
+            <h5 data-aos={"fade-up"}>bootstrap</h5>
           </div>
         </div>
 
@@ -134,23 +140,26 @@ const Voda = () => {
         <div className="row color2 justify-content-center text-white">
           <div className="col-md-8 my-3 px-5">
             <p>
-              <h1 className="text-center mt-4">Leave the message</h1>
+              <h1 className="text-center mt-4" data-aos={"fade-down"}>Leave the message</h1>
             </p>
             <p>
               <input
                 type="text"
                 placeholder="Name"
                 className="form-control mb-3"
+                data-aos={"fade-right"}
               />
               <input
                 type="text"
                 placeholder="email"
                 className="form-control mb-3"
+                data-aos={"fade-left"}
               />
               <input
                 type="text"
                 placeholder="message"
                 className="form-control mb-3 pb-5"
+                data-aos={"fade-right"}
               />
               <button className="btn btn-primary">send</button>
             </p>
@@ -158,7 +167,7 @@ const Voda = () => {
         </div>
       </div>
       <div className="container">
-        <div className="row mt-5 justify-content-center">
+        <div className="row mt-5">
           <div className="col-md-12">
             <p>Contact me if you have any questions</p>
           </div>

@@ -60,48 +60,51 @@ const Sabrina = () => {
       <div className="row justify-content-center">
         <div className="col-md-8 my-3 px-5 text-center">
           <p>
-            <h1>Tools</h1>
+            <h1 data-aos={"fade-down"} >Tools</h1>
           </p>
           <p>
-            <img src={figma} style={{ borderRadius: "50%", width: "100px" }} />
-            <p>Figma</p>
+            <img src={figma} style={{ borderRadius: "50%", width: "100px" }} data-aos={"zoom-out"} />
+            <p data-aos={"fade-up"} >Figma</p>
           </p>
         </div>
       </div>
       <div className="row color1 justify-content-center text-white">
         <div className="col-md-8 my-3 px-5">
           <p>
-            <h1 className="text-center mt-4">Leave the message</h1>
+            <h1 className="text-center mt-4" data-aos={"fade-down"} >Leave the message</h1>
           </p>
           <p>
             <input
               type="text"
               placeholder="Name"
               className="form-control mb-3"
+              data-aos={"fade-right"}
             />
             <input
               type="text"
-              placeholder="Email"
+              placeholder="email"
               className="form-control mb-3"
+              data-aos={"fade-left"}
             />
             <input
               type="text"
-              placeholder="Message"
+              placeholder="message"
               className="form-control mb-3 pb-5"
+              data-aos={"fade-right"}
             />
             <button className="btn btn-primary">send</button>
           </p>
         </div>
       </div>
       <div className="container">
-        <div className="row mt-5 bg-light">
+        <div className="row mt-5">
           <div className="col-md-12">
             <p>Contact me if you have any questions</p>
           </div>
           <div className="col-md-6 py-5 mt-4">
             <p>
               <a href="https://www.instagram.com/sabrinaaau_/">
-                <img src={instagram} style={{ width: "30px" }}/>
+                <img src={instagram} style={{ width: "30px" }} />
               </a>
               <a href="/">
                 <img

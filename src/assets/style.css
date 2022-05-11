@@ -8,9 +8,6 @@
     background: white;
 }
 
-.color3 {
-    background: #5A87A0;
-}
 
 .color1 {
     background: #9e4141;
@@ -18,6 +15,31 @@
 
 .color2 {
     background: rgba(2, 31, 47, 0.75);
+}
+
+.color3 {
+    background: #2155CD;
+}
+
+
+
+
+
+
+.home1 {
+    background: #9BA4B4;
+}
+
+.home2 {
+    background: #394867;
+}
+
+.home3 {
+    background: #14274E;
+}
+
+.home4 {
+    background: #F1F6F9;
 }
 
 .imgp {
