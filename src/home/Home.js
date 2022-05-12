@@ -8,14 +8,14 @@ const Home = () => {
   return (
     <div>
       <NavbarComponent/>
-    <div className="container text-center my-4 px-5 home2 rounded text-white">
+    <div className="container text-center my-4 px-5 home2 rounded text-white py-5">
       <h1>ABNORMAL</h1>
-      <h5 className="mb-2">
+      <h5>
         Hello! this is our team and
         <br /> its members, please choose one to see our full profile.
       </h5>
       <div className="row py-4">
-        <div className="col home3 py-5 mx-2 my-3">
+        <div className="col home3 py-5 mx-2 my-3 rounded-lg">
           <img
             src={voda}
             alt="vodapermadi"

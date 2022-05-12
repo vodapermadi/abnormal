@@ -5,6 +5,7 @@ import instagram from "../../assets/Brands/Vector-1.png";
 import telegram from "../../assets/Brands/Vector.png";
 import whatsapp from "../../assets/Brands/Vector-2.png";
 import figma from "../../assets/Brands/figma.png";
+import vscode from "../../assets/Brands/vscode.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -57,13 +58,19 @@ const Sabrina = () => {
           </div>
         </div>
       </div>
-      <div className="row justify-content-center">
-        <div className="col-md-8 my-3 px-5 text-center">
+      <div className="row justify-content-center items-center">
+        <div className="col-md-12 my-3 px-5 text-center">
           <p>
             <h1 data-aos={"fade-down"} >Tools</h1>
           </p>
-          <p>
+        </div>
+        <div className="col-md-3">
             <img src={figma} style={{ borderRadius: "50%", width: "100px" }} data-aos={"zoom-out"} />
+            <p data-aos={"fade-up"} >Figma</p>
+        </div>
+        <div className="col-md-3">
+          <p>
+            <img src={vscode} style={{ borderRadius: "50%", width: "100px" }} data-aos={"zoom-out"} />
             <p data-aos={"fade-up"} >Figma</p>
           </p>
         </div>
@@ -92,7 +99,7 @@ const Sabrina = () => {
               className="form-control mb-3 pb-5"
               data-aos={"fade-right"}
             />
-            <button className="btn btn-primary">send</button>
+            <button className="btn buttonsabrina text-white">send</button>
           </p>
         </div>
       </div>

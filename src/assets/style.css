@@ -10,7 +10,7 @@
 
 
 .color1 {
-    background: #9e4141;
+    background: #d24b4b;
 }
 
 .color2 {
@@ -20,11 +20,6 @@
 .color3 {
     background: #2155CD;
 }
-
-
-
-
-
 
 .home1 {
     background: #9BA4B4;
@@ -49,8 +44,8 @@
 }
 
 .imgp:hover {
-    background: #2c6a8c;
-    transition: 1s;
+    background: #1b5a7c;
+    transition: 0.5s;
 }
 
 .imgs {
@@ -60,8 +55,8 @@
 }
 
 .imgs:hover {
-    background: #2c6a8c;
-    transition: 1s;
+    background: #1b5a7c;
+    transition: 0.5s;
 }
 
 .ps {
@@ -75,4 +70,12 @@
 
 .gs {
     border-radius: 50%;
+}
+
+.buttonsabrina {
+    background: rgb(180, 14, 14);
+}
+
+.buttonsabrina:hover {
+    background: rgb(123, 7, 7);
 }
