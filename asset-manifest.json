@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/abnormal/static/css/main.78514515.css",
-    "main.js": "/abnormal/static/js/main.846d4b3a.js",
+    "main.css": "/abnormal/static/css/main.8020106e.css",
+    "main.js": "/abnormal/static/js/main.5df8bdc6.js",
     "static/media/php.png": "/abnormal/static/media/php.aa680f57bf75b5d5acdc.png",
     "static/media/laravel.png": "/abnormal/static/media/laravel.845b69e530cc37b6e466.png",
     "static/media/sabrinautami.jpg": "/abnormal/static/media/sabrinautami.1952a18fbab963c9f625.jpg",
@@ -11,12 +11,13 @@
     "static/media/vodapermadi.jpeg": "/abnormal/static/media/vodapermadi.68440d0a50de380f559b.jpeg",
     "static/media/react.png": "/abnormal/static/media/react.283bf42c605cfc49cf49.png",
     "static/media/js.png": "/abnormal/static/media/js.7b7d39612cf606d09047.png",
+    "static/media/vscode.png": "/abnormal/static/media/vscode.142d45eff7e4b136b473.png",
     "index.html": "/abnormal/index.html",
-    "main.78514515.css.map": "/abnormal/static/css/main.78514515.css.map",
-    "main.846d4b3a.js.map": "/abnormal/static/js/main.846d4b3a.js.map"
+    "main.8020106e.css.map": "/abnormal/static/css/main.8020106e.css.map",
+    "main.5df8bdc6.js.map": "/abnormal/static/js/main.5df8bdc6.js.map"
   },
   "entrypoints": [
-    "static/css/main.78514515.css",
-    "static/js/main.846d4b3a.js"
+    "static/css/main.8020106e.css",
+    "static/js/main.5df8bdc6.js"
   ]
 }
