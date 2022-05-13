@@ -94,6 +94,5 @@ body {
 .imghome:hover {
     width: 250px;
     height: 350px;
-    box-shadow: 10px;
     transition: 0.5s;
 }

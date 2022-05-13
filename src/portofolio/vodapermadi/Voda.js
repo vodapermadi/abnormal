@@ -77,8 +77,8 @@ const Voda = () => {
             <img
               src={js}
               alt="js"
-              style={{ width: "100px" }}
-              className="mx-2 shadow"
+              className="mx-2 shadow imgvoda1"
+              style={{width : "100px"}}
               data-aos={"zoom-out"}
             />
             <h5 data-aos={"fade-up"}>Javascript</h5>
