@@ -58,27 +58,37 @@ const Sabrina = () => {
           </div>
         </div>
       </div>
-      <div className="row justify-content-center items-center">
+      <div className="row justify-content-center items-center text-center">
         <div className="col-md-12 my-3 px-5 text-center">
           <p>
-            <h1 data-aos={"fade-down"} >Tools</h1>
+            <h1 data-aos={"fade-down"}>Tools</h1>
           </p>
         </div>
-        <div className="col-md-3">
-            <img src={figma} style={{ borderRadius: "50%", width: "100px" }} data-aos={"zoom-out"} />
-            <p data-aos={"fade-up"} >Figma</p>
+        <div className="col-md-3 mb-3">
+          <img
+            src={figma}
+            style={{ borderRadius: "50%", width: "100px" }}
+            data-aos={"zoom-out"}
+          />
+          <h5 data-aos={"fade-up"}>Figma</h5>
         </div>
-        <div className="col-md-3">
+        <div className="col-md-3 mb-3">
           <p>
-            <img src={vscode} style={{ borderRadius: "50%", width: "100px" }} data-aos={"zoom-out"} />
-            <p data-aos={"fade-up"} >Figma</p>
+            <img
+              src={vscode}
+              style={{ borderRadius: "50%", width: "100px" }}
+              data-aos={"zoom-out"}
+            />
+            <h5 data-aos={"fade-up"}>VScode</h5>
           </p>
         </div>
       </div>
       <div className="row color1 justify-content-center text-white">
         <div className="col-md-8 my-3 px-5">
           <p>
-            <h1 className="text-center mt-4" data-aos={"fade-down"} >Leave the message</h1>
+            <h1 className="text-center mt-4" data-aos={"fade-down"}>
+              Leave the message
+            </h1>
           </p>
           <p>
             <input
