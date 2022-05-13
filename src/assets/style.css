@@ -84,3 +84,16 @@ body {
 .buttonsabrina:hover {
     background: rgb(123, 7, 7);
 }
+
+.imghome {
+    width: 215px;
+    height: 315px;
+    transition: 0.5s;
+}
+
+.imghome:hover {
+    width: 250px;
+    height: 350px;
+    box-shadow: 10px;
+    transition: 0.5s;
+}

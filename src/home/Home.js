@@ -16,16 +16,16 @@ const Home = () => {
         </h5>
         <div className="row py-4">
           <div className="col home3 py-5 mx-2 my-3 rounded-lg">
+            <Link to={`/portofolio/vodapermadi`}>
             <img
               src={voda}
               alt="vodapermadi"
               style={{
-                width: "215px",
-                height: "315px",
                 border: "10px solid #E8F9FD",
               }}
-              className="img rounded"
-            />
+              className="imghome rounded"
+              />
+              </Link>
             <p>
               <Link
                 className="mt-2 btn text-white imgp fs-5 shadow"
@@ -36,16 +36,17 @@ const Home = () => {
             </p>
           </div>
           <div className="col home3 py-5 mx-2 my-3">
+            <Link to={`/portofolio/sabrinautami`}>
+
             <img
               src={sabrina}
               alt="sabrina"
               style={{
-                width: "215px",
-                height: "315px",
                 border: "10px solid #E8F9FD",
               }}
-              className="img rounded"
-            />
+              className="imghome rounded"
+              />
+              </Link>
             <p>
               <Link
                 to={`/portofolio/sabrinautami`}
